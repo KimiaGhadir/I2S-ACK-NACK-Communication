@@ -1,16 +1,16 @@
-# سیستم ارتباط I2S با مکانیزم ACK/NACK
+# I2S Communication System with ACK/NACK Mechanism
 
-## معرفی
-در این پروژه یک سیستم ارسال و دریافت داده مبتنی بر I2S طراحی شده است که با اضافه کردن مکانیزم ACK/NACK، اطمینان انتقال داده افزایش پیدا می‌کند. هدف، تشخیص فریم‌های ناقص و مدیریت خطا در ارتباطات دیجیتال است.
+## Introduction
+This project implements a data transmission and reception system based on the I2S protocol, enhanced with an ACK/NACK mechanism to improve data transfer reliability. The main goal is to detect incomplete or corrupted frames and manage errors in digital communication.
 
-## امکانات
-- پیاده‌سازی مکانیزم ACK/NACK روی I2S
-- تشخیص فریم‌های ناقص یا خراب
-- مدیریت خطا و ارسال مجدد داده
-- شبیه‌سازی کامل در Proteus
-- پیاده‌سازی با Embedded C
+## Features
+- Implementation of an ACK/NACK mechanism over I2S
+- Detection of incomplete or corrupted frames
+- Error handling and data retransmission
+- Full simulation in Proteus
+- Implementation using Embedded C
 
-## ابزارها و تکنولوژی‌ها
+## Tools and Technologies
 - Embedded C
 - I2S
 - Proteus
